@@ -1,0 +1,17 @@
+$color1: red;
+$color2: blue;
+
+
+@mixin color ($color) {
+  @for $i from 1 to 5 {
+    .lighten-#{$i} {
+      background-color: lighten($color, calc($i/10 * 100) );
+    }
+  }
+  
+  @for $i from 1 to 5 {
+    .darken-#{$i} {
+      background-color: darken($color, calc($i/10 * 100) );
+    }
+  }
+}

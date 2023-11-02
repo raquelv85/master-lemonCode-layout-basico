@@ -1,0 +1,44 @@
+.shadow {
+  box-shadow: -6px 12px 10px 7px #000000bf;
+}
+
+.container {
+  flex-direction: column;
+  display: flex;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 100px;
+  height: 80px;
+  margin-bottom: 8px;
+  padding: 8px;
+  font-family: Montserrat, sans-serif;
+}
+
+.primary-bg {
+  background-color: red;
+}
+
+.important-bg {
+  background-color: #600;
+}
+
+.warning-bg {
+  background-color: #ff1a1a;
+}
+
+.front-primary {
+  font-family: Roboto, sans-serif;
+}
+
+.font-secondary {
+  font-family: Montserrat, sans-serif;
+}
+
+.border-box {
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+}
+
+/*# sourceMappingURL=index.4a508c1d.css.map */

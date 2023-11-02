@@ -1,0 +1,37 @@
+.menu {
+  box-sizing: border-box;
+  background-color: #31a2cf;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+@media screen and (width <= 768px) {
+  .menu {
+    flex-direction: column;
+  }
+}
+
+.option {
+  flex: 1;
+  display: flex;
+}
+
+.link {
+  color: #fff;
+  padding: 16px;
+  text-decoration: none;
+}
+
+@media screen and (width <= 768px) {
+  .link {
+    flex: 1;
+  }
+}
+
+.link:hover {
+  background-color: #2782a6;
+}
+
+/*# sourceMappingURL=index.4a508c1d.css.map */

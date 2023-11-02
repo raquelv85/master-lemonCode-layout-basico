@@ -1,0 +1,31 @@
+.menu {
+  display: flex;
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #31a2cf;
+
+  @media screen and (max-width:768px) {
+    flex-direction: column;
+    }
+}
+
+.option {
+  display: flex;
+  flex: 1;
+}
+
+.link {
+  text-decoration: none;
+  padding: 16px;
+  color: white;
+
+  @media screen and (max-width:768px) {
+    flex: 1;
+    }
+
+  &:hover {
+    background-color: darken(#31a2cf, 10%);
+  }
+}

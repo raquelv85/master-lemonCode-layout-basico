@@ -1,0 +1,44 @@
+@use "theme-primary.scss" as *;
+//@use "theme-secondary.scss" as *;
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 100px;
+  height: 80px;
+  margin-bottom: 8px;
+  padding: 8px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.primary-bg {
+  background-color: $baseColor;
+}
+
+.important-bg {
+  background-color: darken($baseColor, 30%);
+}
+
+.warning-bg {
+  background-color: lighten($baseColor, 5%);
+}
+
+.front-primary {
+  font-family: $baseFont;
+}
+.font-secondary {
+  font-family: $secodaryFont;
+}
+
+.border-box {
+  border: 1px solid lightgrey;
+  border-radius: $borderRadius;
+}
+
+
+

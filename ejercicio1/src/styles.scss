@@ -1,0 +1,44 @@
+@use "colors" as *;
+
+
+.container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+
+  .base-color {
+    background-color: $color1;
+  }
+  @include color($color1)
+}
+
+.container-2 {
+  @extend .container-1;
+  .base-color {
+    background-color: $color2;
+  }
+  @include color($color2)
+}
+
+.box {
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.color-box-text {
+  color: #fff;
+}
+
+
+
+
+
+
+
